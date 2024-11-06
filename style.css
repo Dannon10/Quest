@@ -124,6 +124,15 @@ h1, h2, h3, h5{
     display: none;
 }
 
+.section{
+    transition: transform 1s, opacity 1s;
+}
+
+.section--hidden{
+    opacity: 0;
+    transform: translateY(8rem);
+}
+
 .sect-2{
     margin: 1rem 1rem 3rem 1rem;
 }
@@ -639,6 +648,11 @@ h1, h2, h3, h5{
         margin: 3rem 3rem 3rem 3rem;
     }
 
+        .section--hidden {
+            opacity: 0;
+            transform: translateY(8rem);
+        }
+
     .step-visual{
         display: none;
     }
@@ -827,6 +841,11 @@ h1, h2, h3, h5{
     body{
         width: 100%;
     }
+
+        .section--hidden {
+            opacity: 0;
+            transform: translateY(8rem);
+        }
 
     .container{
         margin: 3rem 3rem 3rem 3rem;
